@@ -3,7 +3,7 @@ import lxml
 import requests
 
 query = input('search: ')
-r = requests.get(r'https://www.xvideos.com/?k={query}')
+r = requests.get(f'https://www.xvideos.com/?k={query}')
 soup = bs4.BeautifulSoup(r.text, 'lxml')
 div = soup.find('div', class_='thumb-block')
 
