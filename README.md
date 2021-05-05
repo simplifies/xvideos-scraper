@@ -1,5 +1,10 @@
 # xvideos-scraper
-A Python scraper to scrape videos from xvideos.com.
+A Python scraper to scrap videos from xvideos.com.
+
+## Usage
+- Clone this repository.
+- Install required packages from `requirements.txt`.
+- Run `scraper.py`.
 
 ## Note
-I have not tested this code properly but I have not found any issues so far. If you get an error open a issue and I'll see if I can fix it.
+I have not tested this code properly and I have not found any issues so far. If you get an error open an issue.
